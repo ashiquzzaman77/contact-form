@@ -1,0 +1,75 @@
+/* google-font */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Roboto&family=Ubuntu&display=swap');
+
+/* font-family: 'Cantarell', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+:root {
+    --primary: #30c39e;
+    --white: #fff;
+	--secondary: #333333;
+	--optaional: #666666;
+	--last: #eeeeee;
+	--dark: #212529;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    
+}
+.container-sm{
+    padding: 10px 50px;
+}
+
+/* start about-section */
+#about-section{
+    padding-top: 40px;
+}
+.title{
+    /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+    margin: 10px auto;
+    width: fit-content;
+    font-size: 45px;
+    line-height: 54px;
+    color: var(--secondary);
+    position: relative;
+}
+.title::after{
+    content: '';
+    height: 3px;
+    background: var(--secondary);
+    left: 50%;
+    transform: translate(-50%);
+    bottom: -15px;
+    position: absolute;
+    width: 40%;
+}
+
+/* start contact section */
+.contact-address i{
+    font-size: 18px;
+    color: var(--primary);
+}
+.contact-media i{
+    font-size: 18px;
+    color: var(--primary);
+}
+.contact-btn22{
+    float: right;
+    padding: 8px 35px;
+    background: #0a8ea0;
+    color: #fff;
+    border: 2px solid #0a8ea0;
+    transition: all 0.5s;
+}
+.contact-btn22:hover{
+    background: none !important;
+    border-color: var(--secondary);
+    color: var(--secondary);
+}
+.form-control:focus {
+    border-color: var(--secondary);
+    box-shadow : none;
+    /* box-shadow: 0 0 0 .25rem var(--secondary); */
+  }
+/* end contact section  */
+

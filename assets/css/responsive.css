@@ -1,0 +1,59 @@
+/* ================= sm =============== */
+@media screen and (min-width: 991px) and (max-width: 1199px){
+   .res-img{
+       padding: 25px 0;
+   }
+}
+/* ================= sm =============== */
+@media screen and (min-width: 767px) and (max-width: 991px){
+     /* header section */
+     .content-part h1{
+        font-size: 45px;
+    }
+    /* about-section */
+    .res-img{
+        padding: 25px 0;
+    }
+}
+/* ================= sm =============== */
+@media screen and (min-width: 575px) and (max-width: 767px){
+    /* header section */
+    .content-part h1{
+        font-size: 35px;
+    }
+    .content-part h5{
+        font-size: 17px;
+    }
+    .content-part p{
+        font-size: 14px;
+    }
+    /* about-section */
+    .res-img{
+        padding: 20px 0;
+    }
+    /* hire section */
+    .ulvinar p{
+        font-size: 14px;
+    }
+}
+/* ================= xsm =============== */
+@media screen and (min-width: 0px) and (max-width: 575px){
+    /* header section */
+    .content-part h1{
+        font-size: 35px;
+    }
+    .content-part h5{
+        font-size: 17px;
+    }
+    .content-part p{
+        font-size: 14px;
+    }
+    /* about #about-section */
+    .res-img{
+        padding: 20px 0;
+    }
+    /* hire section */
+    .hire-p{
+        font-size: 14px;
+    }
+}
